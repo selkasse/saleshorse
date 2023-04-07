@@ -10,8 +10,10 @@
 	<h3>See what works, and what doesn't -- through the use of your own data</h3>
 	<h3>Log meals against an ever-growing, community-sourced database</h3>
 	<h4>more coming soon</h4>
-	<!-- <ul>
-		<li>Track your health-related habits over time</li>
-		<li>See what works, and what doesn't</li>
-	</ul> -->
 </section>
+
+<style>
+	h1 {
+		color: var(--color-theme-1);
+	}
+</style>
