@@ -1,26 +1,24 @@
 <script>
 	import { page } from '$app/stores';
 	import logo from '$lib/images/svelte-logo.svg';
-	import github from '$lib/images/github.svg';
+	// import github from '$lib/images/github.svg';
+	import horse from '$lib/images/horse.svg';
+	import horseshoe from '$lib/images/horseshoe.svg';
 </script>
 
 <header>
 	<!-- TODO: change to horse emoji -->
 	<div class="corner">
 		<a href="/">
-			<!-- <img src={logo} alt="SvelteKit" /> -->
-			🐴
+			<img src={horse} alt="horse" />
 		</a>
 	</div>
 
 	<div class="corner">
 		<!-- TODO: change to link to contact/social card -->
 
-		<a href="https://github.com/sveltejs/kit">
-			<!-- <img src={github} alt="GitHub" /> -->
-			<!-- 🧲 -->
-			<!-- 🤙 -->
-			🥑
+		<a href="https://limey.io/saleshorse/">
+			<img src={horseshoe} alt="horseshoe" />
 		</a>
 	</div>
 </header>
