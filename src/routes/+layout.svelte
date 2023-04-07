@@ -1,6 +1,7 @@
 <script>
 	import Header from './Header.svelte';
 	import './styles.css';
+	let currentYear = new Date().getFullYear();
 </script>
 
 <div class="app">
@@ -12,7 +13,7 @@
 
 	<footer>
 		<!-- TODO: replace with copyright -->
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+		<p>saleshorse © {currentYear}</p>
 	</footer>
 </div>
 
