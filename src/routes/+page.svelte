@@ -11,21 +11,15 @@
 
 <section>
 	<h1>
-		<span class="welcome">
-			<picture>
-				<source srcset={welcome} type="image/webp" />
-				<img src={welcome_fallback} alt="Welcome" />
-			</picture>
-		</span>
-
-		to your new<br />SvelteKit app
+		<!-- TODO: find a cool font -->
+		saleshorse
 	</h1>
 
 	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
+		Salesforce, with a bit of <strong>horsin' around</strong>
 	</h2>
 
-	<Counter />
+	<!-- <Counter /> -->
 </section>
 
 <style>
