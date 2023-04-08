@@ -31,10 +31,71 @@
 		content="A habit archive; see the arc of your habit's data over time"
 	/>
 	<meta property="twitter:image" content="https://i.imgur.com/J51tkuA.png" /> -->
+
+	<meta charset="UTF-8" /><meta
+		name="viewport"
+		content="width=device-width, initial-scale=1, shrink-to-fit=no"
+	/><title>How to Get a Salesforce Access Token with Postman</title><meta
+		property="og:site_name"
+		content="saleshorse blog"
+	/><link
+		rel="apple-touch-icon"
+		sizes="180x180"
+		href="https://cdn.hashnode.com/res/hashnode/image/upload/v1611242155728/W3_BYVVVh.png"
+	/><link
+		rel="icon"
+		type="image/png"
+		sizes="32x32"
+		href="https://cdn.hashnode.com/res/hashnode/image/upload/v1611242173172/AOX1gE2jc.png"
+	/><link
+		rel="icon"
+		type="image/png"
+		sizes="16x16"
+		href="https://cdn.hashnode.com/res/hashnode/image/upload/v1611242187756/TRTNYp32O.png"
+	/><link
+		rel="mask-icon"
+		href="/static/images/brand/safari-pinned-tab-new.svg"
+		color="#2962ff"
+	/><meta name="msapplication-TileColor" content="#ffffff" /><meta
+		name="theme-color"
+		content="#f6f7fb"
+	/><meta property="twitter:card" content="summary_large_image" /><link
+		rel="preload"
+		as="image"
+		href="https://cdn.hashnode.com/res/hashnode/image/upload/v1677530759493/7404e96b-9f2d-4a64-8f8f-dc26cef48eff.png?w=400&amp;h=400&amp;fit=crop&amp;crop=faces&amp;auto=compress,format&amp;format=webp"
+	/><meta
+		name="description"
+		content="- Log into Postman
+- Add and Fork the Salesforce Platform APIs Collection
+- Click 'Get New Access Token' in the 'Authorization' tab"
+	/><meta property="og:title" content="How to Get a Salesforce Access Token with Postman" /><meta
+		property="og:description"
+		content="- Log into Postman
+- Add and Fork the Salesforce Platform APIs Collection
+- Click 'Get New Access Token' in the 'Authorization' tab"
+	/><meta property="og:type" content="article" /><meta
+		property="og:url"
+		content="https://blog.saleshorse.org/salesforce-access-token-postman"
+	/>
 	<meta
 		name="image"
 		property="og:image"
 		content="https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1677558266929%2F6471cefa-5516-473b-9c11-52a77a6dfcb8.jpeg%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
+	/><meta
+		property="twitter:title"
+		content="How to Get a Salesforce Access Token with Postman"
+	/><meta
+		property="twitter:description"
+		content="- Log into Postman
+- Add and Fork the Salesforce Platform APIs Collection
+- Click 'Get New Access Token' in the 'Authorization' tab"
+	/><meta
+		property="twitter:image"
+		content="https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1677558266929%2F6471cefa-5516-473b-9c11-52a77a6dfcb8.jpeg%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
+	/><link rel="canonical" href="https://blog.saleshorse.org/salesforce-access-token-postman" /><link
+		rel="preload"
+		as="image"
+		href="https://cdn.hashnode.com/res/hashnode/image/upload/v1677558266929/6471cefa-5516-473b-9c11-52a77a6dfcb8.jpeg?w=1600&amp;h=840&amp;fit=crop&amp;crop=entropy&amp;auto=compress,format&amp;format=webp"
 	/>
 </svelte:head>
 
