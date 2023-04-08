@@ -1,19 +1,9 @@
 <svelte:head>
 	<title>habit arc</title>
-	<!-- <meta name="description" content="About the Habit Arc app" /> -->
-	<!-- <meta
-		name="twitter:description"
-		content="A habit archive; a place to see the arc of your habit's data over time"
-	/> -->
 	<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
 	<meta name="description" content="A habit archive; see the arc of your habit's data over time" />
 
-	<!-- <meta name="twitter:site" content="https://saleshorse.org/habitarc" /> -->
-	<!-- <meta name="twitter:creator" content="@saleshorseorg" /> -->
-	<!-- <meta name="twitter:image" content="https://i.imgur.com/2apfaYs.png" /> -->
-	<!-- <meta name="twitter:card" content="summary" /> -->
-
-	<meta name="twitter:card" content="summary_large_image" />
+	<!-- <meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:site:id" content="@saleshorseorg" />
 	<meta name="twitter:creator" content="@saleshorseorg" />
 	<meta name="twitter:title" content="habit arc" />
@@ -21,7 +11,25 @@
 		name="twitter:description"
 		content="A habit archive; see the arc of your habit's data over time"
 	/>
-	<meta name="twitter:image" content="https://i.imgur.com/2apfaYsh.png" />
+	<meta name="twitter:image" content="https://i.imgur.com/2apfaYsh.png" /> -->
+	<meta property="og:title" content="Habit Arc" />
+	<meta
+		property="og:description"
+		content="A habit archive; see the arc of your habit's data over time"
+	/>
+	<meta property="og:site_name" content="saleshorse" />
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="https://saleshorse.org/habitarc" />
+	<meta name="image" property="og:image" content="https://i.imgur.com/2apfaYsh.png" />
+
+	<meta property="twitter:card" content="summary_large_image" />
+	<meta property="twitter:title" content="Habit Arc" />
+
+	<meta
+		property="twitter:description"
+		content="A habit archive; see the arc of your habit's data over time"
+	/>
+	<meta property="twitter:image" content="https://i.imgur.com/2apfaYsh.png" />
 </svelte:head>
 
 <div class="text-column">
