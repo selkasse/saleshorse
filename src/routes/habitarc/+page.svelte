@@ -20,7 +20,7 @@
 	<meta property="og:site_name" content="saleshorse" />
 	<meta property="og:type" content="article" />
 	<meta property="og:url" content="https://saleshorse.org/habitarc" />
-	<meta name="image" property="og:image" content="https://i.imgur.com/2apfaYsh.png" />
+	<meta name="image" property="og:image" content="https://i.imgur.com/J51tkuA.png" />
 
 	<meta property="twitter:card" content="summary_large_image" />
 	<meta property="twitter:title" content="Habit Arc" />
@@ -29,7 +29,7 @@
 		property="twitter:description"
 		content="A habit archive; see the arc of your habit's data over time"
 	/>
-	<meta property="twitter:image" content="https://i.imgur.com/2apfaYsh.png" />
+	<meta property="twitter:image" content="https://i.imgur.com/J51tkuA.png" />
 </svelte:head>
 
 <div class="text-column">
