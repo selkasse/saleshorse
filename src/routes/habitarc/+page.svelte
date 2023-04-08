@@ -8,19 +8,20 @@
 	<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
 	<meta name="description" content="A habit archive; see the arc of your habit's data over time" />
 
-	<!-- <meta name="twitter:card" content="summary_large_image" /> -->
-
 	<!-- <meta name="twitter:site" content="https://saleshorse.org/habitarc" /> -->
 	<!-- <meta name="twitter:creator" content="@saleshorseorg" /> -->
 	<!-- <meta name="twitter:image" content="https://i.imgur.com/2apfaYs.png" /> -->
-	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:site" content="@saleshorseorg" />
+	<!-- <meta name="twitter:card" content="summary" /> -->
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site:id" content="@saleshorseorg" />
+	<meta name="twitter:creator" content="@saleshorseorg" />
 	<meta name="twitter:title" content="habit arc" />
 	<meta
 		name="twitter:description"
 		content="A habit archive; see the arc of your habit's data over time"
 	/>
-	<meta name="twitter:image:src" content="https://i.imgur.com/2apfaYs.png" />
+	<meta name="twitter:image" content="https://i.imgur.com/2apfaYsh.png" />
 </svelte:head>
 
 <div class="text-column">
