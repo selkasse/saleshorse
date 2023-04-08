@@ -11,8 +11,7 @@
 		name="twitter:description"
 		content="A habit archive; see the arc of your habit's data over time"
 	/>
-	<meta name="twitter:image" content="https://i.imgur.com/8YWup3G.png" />
-	<!-- <meta name="twitter:image" content="https://i.imgur.com/J51tkuA.png" /> -->
+	<meta name="twitter:image" content="https://i.imgur.com/J51tkuA.png" />
 </svelte:head>
 
 <div class="text-column">
