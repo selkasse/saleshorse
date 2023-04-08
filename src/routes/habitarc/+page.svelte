@@ -3,7 +3,7 @@
 	<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
 	<meta name="description" content="A habit archive; see the arc of your habit's data over time" />
 
-	<meta name="twitter:card" content="summary_large_image" />
+	<!-- <meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:site:id" content="@saleshorseorg" />
 	<meta name="twitter:creator" content="@saleshorseorg" />
 	<meta name="twitter:title" content="habit arc" />
@@ -11,7 +11,7 @@
 		name="twitter:description"
 		content="A habit archive; see the arc of your habit's data over time"
 	/>
-	<meta name="twitter:image" content="https://i.imgur.com/J51tkuA.png" />
+	<meta name="twitter:image" content="https://i.imgur.com/J51tkuA.png" /> -->
 
 	<!-- <meta property="og:title" content="Habit Arc" />
 	<meta
@@ -31,6 +31,11 @@
 		content="A habit archive; see the arc of your habit's data over time"
 	/>
 	<meta property="twitter:image" content="https://i.imgur.com/J51tkuA.png" /> -->
+	<meta
+		name="image"
+		property="og:image"
+		content="https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1677558266929%2F6471cefa-5516-473b-9c11-52a77a6dfcb8.jpeg%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
+	/>
 </svelte:head>
 
 <div class="text-column">
