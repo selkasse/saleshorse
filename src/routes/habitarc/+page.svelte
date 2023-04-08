@@ -5,10 +5,7 @@
 		name="twitter:description"
 		content="A habit archive; a place to see the arc of your habit's data over time"
 	/> -->
-	<meta
-		name="description"
-		content="A habit archive; a place to see the arc of your habit's data over time"
-	/>
+	<meta name="description" content="A habit archive; see the arc of your habit's data over time" />
 	<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:site" content="https://saleshorse.org/habitarc" />
