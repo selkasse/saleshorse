@@ -33,6 +33,7 @@
 	>
 		<input type="hidden" name="oid" value="00D8Y000001Qcn8" />
 		<input type="hidden" name="retURL" value="https://saleshorse.org/habitarc/thank-you" />
+		<input type="hidden" name="ProductInterest__c" value="HARC" />
 
 		<label for="first_name">first name</label><input
 			id="first_name"
