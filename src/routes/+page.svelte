@@ -1,5 +1,4 @@
 <script>
-	import Counter from './Counter.svelte';
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
 </script>
@@ -10,14 +9,14 @@
 </svelte:head>
 
 <section>
-	<h1>
+	<h1 class="title">
 		<!-- TODO: find a cool font -->
 		<a href="https://limey.io/saleshorse">saleshorse</a>
 	</h1>
 
-	<h2>
+	<p class="subtext">
 		Salesforce, with a bit of <strong>horsin' around</strong>
-	</h2>
+	</p>
 
 	<h3>giddy on up and take a look at the <a href="/habitarc">current project</a></h3>
 	<h3>
