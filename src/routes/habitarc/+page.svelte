@@ -22,7 +22,7 @@
 		class="form"
 	>
 		<input type="hidden" name="oid" value="00D8Y000001Qcn8" />
-		<input type="hidden" name="retURL" value="https://blog.saleshorse.org/newsletter" />
+		<input type="hidden" name="retURL" value="https://saleshorse.org/habitarc/thank-you" />
 
 		<label for="first_name">first name</label><input
 			id="first_name"
