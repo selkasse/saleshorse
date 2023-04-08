@@ -1,6 +1,6 @@
 <svelte:head>
 	<title>habit arc</title>
-	<meta name="description" content="About the Habit Arc app" />
+	<!-- <meta name="description" content="About the Habit Arc app" /> -->
 	<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:site" content="https://saleshorse.org/habitarc" />
