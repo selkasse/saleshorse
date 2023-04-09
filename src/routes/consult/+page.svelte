@@ -5,7 +5,7 @@
 
 <section>
 	<div class="text-column">
-		<h1>looking forward to speaking with you, <span>name goes here!</span></h1>
+		<h1><span>looking forward</span> to speaking with you!</h1>
 	</div>
 </section>
 
