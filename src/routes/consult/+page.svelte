@@ -1,13 +1,18 @@
 <script>
-	import { browser } from '$app/environment';
-	if (browser) {
-		let queryString = window.location.search;
-		let urlParams = new URLSearchParams(queryString);
-		let email = urlParams.get('invitee_email');
-		let name = urlParams.get('invitee_full_name');
-		console.log(`email: ${email}`);
-		console.log(`name: ${name}`);
-	}
+	// import { browser } from '$app/environment';
+	import { page } from '$app/stores';
+
+	// let queryString = window.location.search;
+	// let urlParams = new URLSearchParams(queryString);
+	// let email = urlParams.get('invitee_email');
+	// let name = urlParams.get('invitee_full_name');
+
+	// ;
+
+	console.log(`email: ${$page.url.searchParams.get('invitee_email')}`);
+	console.log(`name: ${$page.url.searchParams.get('invitee_full_name')}`);
+	// if (browser) {
+	// }
 </script>
 
 <svelte:head>
