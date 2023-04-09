@@ -8,9 +8,10 @@
 	// let name = urlParams.get('invitee_full_name');
 
 	// ;
+	const url = $page.url;
 
-	console.log(`email: ${$page.url.searchParams.get('invitee_email')}`);
-	console.log(`name: ${$page.url.searchParams.get('invitee_full_name')}`);
+	console.log(`email: ${url.searchParams.get('invitee_email')}`);
+	console.log(`name: ${url.searchParams.get('invitee_full_name')}`);
 	// if (browser) {
 	// }
 </script>
