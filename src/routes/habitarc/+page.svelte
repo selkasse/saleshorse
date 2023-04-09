@@ -1,3 +1,7 @@
+<script>
+	console.log('hello');
+</script>
+
 <svelte:head>
 	<title>habit arc</title>
 	<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
