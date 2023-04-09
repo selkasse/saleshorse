@@ -1,10 +1,13 @@
 <script>
-	let queryString = window.location.search;
-	let urlParams = new URLSearchParams(queryString);
-	let email = urlParams.get('invitee_email');
-	let name = urlParams.get('invitee_full_name');
-	console.log(`email: ${email}`);
-	console.log(`name: ${name}`);
+	import { browser } from '$app/environment';
+	if (browser) {
+		let queryString = window.location.search;
+		let urlParams = new URLSearchParams(queryString);
+		let email = urlParams.get('invitee_email');
+		let name = urlParams.get('invitee_full_name');
+		console.log(`email: ${email}`);
+		console.log(`name: ${name}`);
+	}
 </script>
 
 <svelte:head>
