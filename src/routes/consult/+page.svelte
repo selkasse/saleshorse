@@ -1,6 +1,7 @@
 <script>
 	// import { browser } from '$app/environment';
 	import { page } from '$app/stores';
+	import { onMount } from 'svelte';
 
 	// let queryString = window.location.search;
 	// let urlParams = new URLSearchParams(queryString);
@@ -8,10 +9,13 @@
 	// let name = urlParams.get('invitee_full_name');
 
 	// ;
-	const url = $page.url;
 
-	console.log(`email: ${url.searchParams.get('invitee_email')}`);
-	console.log(`name: ${url.searchParams.get('invitee_full_name')}`);
+	onMount(async () => {
+		const url = $page.url;
+
+		console.log(`email: ${url.searchParams.get('invitee_email')}`);
+		console.log(`name: ${url.searchParams.get('invitee_full_name')}`);
+	});
 	// if (browser) {
 	// }
 </script>
