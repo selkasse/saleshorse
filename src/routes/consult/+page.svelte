@@ -8,7 +8,8 @@
 	let firstName = name?.substring(0, name.indexOf(' '));
 	let lastName = name?.substring(name.indexOf(' ') + 1);
 
-	let BASE_URL = `https://b5ae-2600-4040-4751-3e00-f037-6e12-306f-5051.ngrok-free.app`;
+	// let BASE_URL = `https://b5ae-2600-4040-4751-3e00-f037-6e12-306f-5051.ngrok-free.app`;
+	let BASE_URL = `https://saleshorse.org`;
 
 	let returnURL = `${BASE_URL}/consult/thank-you?firstName=${firstName}`;
 
