@@ -1,4 +1,4 @@
-<!-- <script>
+<script>
 	// import { browser } from '$app/environment';
 	import { page } from '$app/stores';
 
@@ -14,8 +14,9 @@
 	console.log(`name: ${url.searchParams.get('invitee_full_name')}`);
 	// if (browser) {
 	// }
-</script> -->
-<script context="module">
+</script>
+
+<!-- <script context="module">
 	// @ts-ignore
 	export function load({ url }) {
 		const email = url.searchParams.get('invitee_email') || '/consult';
@@ -36,7 +37,7 @@
 	console.log(name);
 
 	// do stuff
-</script>
+</script> -->
 
 <svelte:head>
 	<title>thank you!</title>
